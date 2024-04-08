@@ -13,7 +13,7 @@ import { Menu } from "lucide-react";
       <SheetTrigger>
         <Menu className="text-white" />
       </SheetTrigger>
-      <SheetContent>
+      <SheetContent className="p-0 z-[100]" side="left">
         <Sidebar/>
       </SheetContent>
     </Sheet>
