@@ -31,4 +31,6 @@ export const getCourseById = cache(async (courseId: number) => {
   const data = await db.query.courses.findFirst({
     where: eq(courses.id, courseId),
   });
+
+  return data;
 })
