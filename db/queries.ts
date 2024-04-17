@@ -4,8 +4,7 @@ import { auth } from "@clerk/nextjs";
 import { 
   challengeProgress,
   courses, 
-  units, 
-  userProgress 
+  units
 } from "@/db/schema";
 import { eq } from "drizzle-orm";
 
@@ -62,7 +61,8 @@ export const getUnits = cache(async () => {
 
       return { ...lesson, completed: allCompletedChallenges };
     });
-    return { ...units, lessons: lessonsWithCompletedStatus };
+
+    return { ...unit, lessons: lessonsWithCompletedStatus };
   });
 
   return normalizedData;
