@@ -30,8 +30,7 @@ const LessonPage = async () => {
       initialPercentage={initialPercentage}
       userSubscription={null}
     />
+  )
+}
 
-  );
-};
-
-export default LessonPage;
+export default LessonPage
