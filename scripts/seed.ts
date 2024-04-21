@@ -100,7 +100,7 @@ const main = async () => {
       {
         id: 1,
         challengeId: 1, // Which one of these is "the man"?
-        imageSrc: "/man.svg",
+        imageSrc: "/boy.svg",
         correct: true,
         text: "el hombre",
         audioSrc: "/es_man.mp3",
@@ -108,7 +108,7 @@ const main = async () => {
       {
         id: 2,
         challengeId: 1,
-        imageSrc: "/woman.svg",
+        imageSrc: "/girl.svg",
         correct: false,
         text: "la mujer",
         audioSrc: "/es_woman.mp3",
@@ -116,7 +116,7 @@ const main = async () => {
       {
         id: 3,
         challengeId: 1,
-        imageSrc: "/robot.svg",
+        imageSrc: "/zombie.svg",
         correct: false,
         text: "el robot",
         audioSrc: "/es_robot.mp3",
